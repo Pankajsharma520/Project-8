@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.box {
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    background-color: #EBEAED;
+    text-align: center;
+    margin: auto;
+
+}
+
+.box1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    background-color: #25DAC5;
+    text-align: center;
+    margin: auto;
+}
+
+tr,
+td {
+    border: 1px solid black;
+
+
+}
+
+.para1 {
+    color: #A1A1B0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-top: 21px;
+    margin-bottom: 11px;
+    margin-right: 23px;
+
+
+}
+
+.heading {
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+
+.title {
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.para {
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    width: 207px;
+    margin-left: 49px;
+
+
+}
+
+.dollar {
+    color: #1E0E62;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.value {
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.para2 {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+button {
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    background-color: white;
+    width: 230px;
+    height: 50px;
+    margin-left: 36px;
+    margin-top: 39px;
+    margin-bottom: 40px;
+
+}
+
+table {
+    width: 1170px;
+    height: 781px;
+    border-collapse: collapse;
+
+
+}
+
+td {
+    width: 292px;
+}
+
+thead {
+    background-color: #F5F5F6;
+}
+
+.head-box {
+    margin-top: 30.2px;
+    margin-bottom: 22.6px;
+}
+
+.price-box {
+    margin-top: 43.8px;
+    margin-bottom: 36.2px;
+    position: relative;
+}
+
+.currency {
+    position: absolute;
+    margin-left: 105px;
+}
+
+td:hover button {
+    background-color: #25DAC5;
+    color: white;
+}
+button:hover{
+     cursor:pointer
+    }
